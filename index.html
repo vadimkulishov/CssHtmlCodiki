@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <title>Знакомство с CSS </title>
+    <style>
+        .reason {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .reason img {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Это крупный заголовок!!!</h1>
+        <p>Это шапка! Напиши о себе</p>
+        <img src="./src/1995515.png"> <!-- для примера относительный путь -->
+    </header>
+    <section>
+        <h2>Почему я хочу стать веб-разработчиком?</h2>
+        <div class="reason">
+            <img src="./src/lemon.png" alt="Лимон">
+            <p>1 причина</p>
+        </div>
+        <div class="reason">
+            <img src="./src/car.png" alt="Машина">
+            <p>2 причина <strong>(смотри! тут выделено ЖИРНЫМ!)</strong></p>
+        </div>
+        <div class="reason">
+            <img src="./src/gaming.png" alt="Игра">
+            <p>3 причина <em>(смотри! а тут выделено курсивом!)</em></p>
+        </div>
+        <a href="https://st-lt.ru/veb-razrabotka.html">Этот текст благодаря тегу &lt;a&gt; превратился в ссылку!</a>
+        <a href="https://habr.com/ru/hubs/webdev/articles/">А это вторая ссылка!</a>
+    </section>
+    <section>
+        <h2>Мой план по изучению веб-разработки</h2>
+        <ul>
+            <li>Ходить на уроки и задавать вопросы</li>
+            <li>Много практиковатся</li>
+            <li>Придумывать свои задачи</li>
+            <li>Читать про HTML самостоятельно</li>
+            <li>Вести конспект или делать фото или скриншоты!</li>
+        </ul>
+    </section>
+    <section>
+        <h2>А здесь я попробую создать нумерованный список</h2>
+        <ol>
+            <li>Ура!</li>
+            <li>Выходит!</li>
+            <li>Я справлюсь со всем!</li>
+            <li>Я просто умничка и красавчик!</li>
+            <li>Классное задание!</li>
+        </ol>
+        <img src="https://cdn-icons-png.flaticon.com/512/10061/10061736.png"> <!-- для примера абсолютный путь -->
+    </section>
+    <footer>
+        <p style="text-align: center;">Подвал. А в следующий раз я смогу сделать сайт красивым с помощью CSS</p>
+    </footer>
+</body>
+</html>
